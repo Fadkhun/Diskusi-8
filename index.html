@@ -58,7 +58,8 @@
     <script>
         // Data nama file gambar yang akan digunakan
         const imageFiles = [];
-        for (let i = 1; i <= 10; i++) {
+        // DIUBAH: Perulangan kini hanya membuat 2 file: foto1.png dan foto2.png (i <= 2)
+        for (let i = 1; i <= 2; i++) {
             imageFiles.push(`foto${i}.png`);
         }
 
@@ -96,7 +97,7 @@
 
     <footer class="text-center mt-10 p-4 text-gray-500 text-sm border-t bg-white">
         <!-- Menambahkan bg-white ke footer agar menyatu dengan background body -->
-        <p>Pastikan file gambar (foto1.png hingga foto10.png) berada di lokasi yang benar.</p>
+        <p>Pastikan file gambar (foto1.png dan foto2.png) berada di lokasi yang benar.</p>
     </footer>
 
 </body>
